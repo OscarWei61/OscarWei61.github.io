@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Ming-Yi's Website</title>
+        <link rel="icon" href="./assets/jpeg/favicon.jpg" />
+        <meta name="description" content="Ming-Yi's website" />
+
+        <link rel="stylesheet" href="css/style.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="header__content">
+                <div class="header__logo-container">
+                    <div class="header__logo-img-cont">
+                        <img
+                            src="./assets/jpeg/facebook.jpg"
+                            alt="Pin-Hua Lee's Image"
+                            class="header__logo-img"
+                        />
+                    </div>
+                    <span class="header__logo-sub magic-hover magic-hover__square"
+                        >Ming-Yi(Oscar) Wei</span
+                    >
+                </div>
+                <div class="header__main">
+                    <ul class="header__links">
+                        <div class="header__link-div">
+                        <li class="header__link-wrapper">
+                            <a
+                                href="./index.html"
+                                class="header__link magic-hover magic-hover__square"
+                            >
+                                Home
+                            </a>
+                        </li>
+                        </div>
+                        <div class="header__link-div">
+                        <li class="header__link-wrapper">
+                            <a
+                                href="./index.html#about"
+                                class="header__link magic-hover magic-hover__square"
+                                >About
+                            </a>
+                        </li>
+                        </div>
+                        <div class="header__link-div">
+                        <li class="header__link-wrapper">
+                            <a
+                                href="./index.html#experience"
+                                class="header__link magic-hover magic-hover__square"
+                            >
+                                Experience
+                            </a>
+                        </li>
+                        </div>
+                        <div class="header__link-div">
+                        <li class="header__link-wrapper">
+                            <a
+                                href="./index.html#contact"
+                                class="header__link magic-hover magic-hover__square"
+                            >
+                                Contact
+                            </a>
+                        </li>
+                        </div>
+                        <li class="header__link-wrapper">
+                            <div class="toggle magic-hover magic-hover__square">
+                                <input type="checkbox" id="toggle" />
+                                <label for="toggle"></label>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="header__main-ham-menu-cont">
+                        <img
+                            src="./assets/svg/ham-menu.svg"
+                            alt="hamburger menu"
+                            class="header__main-ham-menu"
+                        />
+                        <img
+                            src="./assets/svg/ham-menu-close.svg"
+                            alt="hamburger menu close"
+                            class="header__main-ham-menu-close d-none"
+                        />
+                    </div>
+                </div>
+            </div>
+            <div class="header__sm-menu">
+                <div class="header__sm-menu-content">
+                    <ul class="header__sm-menu-links">
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html"> Home </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#about"> About </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#experience"> Experience </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#projects"> Projects </a>
+                        </li>
+
+                        <li class="header__sm-menu-link">
+                            <a href="./index.html#contact"> Contact </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- Home Section -->
+        <section class="home-hero">
+            <div class="home-hero__content" id="home-hero__content">
+                <h1 class="heading-primary">Hello, <span class="wave">🦄</span></h1>
+                <h1 class="heading-primary">My name is Ming-Yi Wei</h1>
+                <div class="home-hero__info">
+                    <p class="text-primary">
+                        I am currently applying for M.S./M.Eng. degree in data science
+                        related fields.
+                    </p>
+                </div>
+                <div class="home-hero__cta">
+                    <a
+                        href="./assets/pdf/CV.pdf"
+                        class="btn btn--bg magic-hover magic-hover__square"
+                        target="_blank"
+                        >See my resume</a
+                    >
+                </div>
+            </div>
+            <div class="home-hero__socials">
+                <!--LinkedIn-->
+                <div class="home-hero__social magic-hover magic-hover__square">
+                    <a
+                        href="https://www.linkedin.com/in/oscarweiyi"
+                        target="_blank"
+                        class="home-hero__social-icon-link"
+                    >
+                        <img
+                            src="./assets/png/linkedin-ico.png"
+                            alt="linkedin icon"
+                            class="home-hero__social-icon"
+                        />
+                    </a>
+                </div>
+                <!--GitHub-->
+                <div class="home-hero__social magic-hover magic-hover__square">
+                    <a
+                        href="https://github.com/OscarWei61"
+                        target="_blank"
+                        class="home-hero__social-icon-link"
+                    >
+                        <img
+                            src="./assets/png/github-ico.png"
+                            alt="github icon"
+                            class="home-hero__social-icon"
+                        />
+                    </a>
+                </div>
+                <!-- Medium -->
+                <div class="home-hero__social magic-hover magic-hover__square">
+                    <a
+                        href="https://medium.com/@wei57"
+                        target="_blank"
+                        class="home-hero__social-icon-link"
+                    >
+                        <img
+                            src="./assets/png/medium-ico.png"
+                            alt="medium icon"
+                            class="home-hero__social-icon"
+                        />
+                    </a>
+                </div>
+            </div>
+            <div class="home-hero__mouse-scroll-cont">
+                <div class="mouse"></div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about sec-pad reveal">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-med">
+                    <span class="heading-sec__main">About Me</span>
+                    <span class="heading-sec__sub">
+                        I graduated from the National Taiwan University of Science and Technology, majoring in Electrical Engineering
+                        with great interests in data science and software engineering.
+                    </span>
+                </h2>
+                <div class="about__content">
+                    <div class="about__content-main">
+                        <h3 class="about__content-title">Get to know me!</h3>
+                        <div class="about__content-details">
+                            <p class="about__content-details-para">
+                                Hey! My name is
+                                <strong>Ming-Yi Wei</strong>. You can call me
+                                <b>Oscar</b>🌻.
+                            </p>
+                            <p class="about__content-details-para">
+                                My name is written in Chinese as 魏鳴億, and pronounced as
+                                <audio controls>
+                                    <source
+                                        src="./assets/audio/MingYiWei.mp3"
+                                        type="audio/mpeg"
+                                    />
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </p>
+
+                            <p class="about__content-details-para">
+                                
+                                I enjoy solving problems and exploring various topics. I am currently employed as a <b>Data Engineer</b> at <b>TaiwanMobile</b>, where I am responsible for projects involving <b>large-scale language models</b>, <b>federated learning</b>, and <b>social engineering</b>.
+                                
+                            </p>
+                        </div>
+                        <a
+                            href="./#contact"
+                            class="btn btn--med btn--theme dynamicBgClr magic-hover magic-hover__square"
+                            >Contact Me</a
+                        >
+                    </div>
+                    <div class="about__content-skills">
+                        <h3 class="about__content-title">My Skills</h3>
+                        <div class="skills">
+                            <div class="skills__skill">Python</div>
+                            <div class="skills__skill">C/C++</div>
+                            <div class="skills__skill">SQL</div>
+                            <div class="skills__skill">UI/UX</div>
+                            <div class="skills__skill">Golang</div>
+                            <div class="skills__skill">HTML</div>
+                            <div class="skills__skill">CSS</div>
+                            <div class="skills__skill">JavaScript/TypeScript</div>
+                            <div class="skills__skill">Swift</div>
+                            <div class="skills__skill">Git</div>
+                            <div class="skills__skill">PHP</div>
+                            <div class="skills__skill">PyTorch</div>
+                            <div class="skills__skill">Azure</div>
+                            <div class="skills__skill">Kubernetes</div>
+                            <div class="skills__skill">Docker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section -->
+        <section id="experience" class="projects sec-pad reveal">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-bg">
+                    <span class="heading-sec__main">Experience</span>
+                    <span class="heading-sec__sub">
+                        Here are my recent research and work experiences🧑🏻‍🎓
+                    </span>
+                </h2>
+
+                <div class="projects__content">
+                    <!-- Experience 1 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/png/taiwanmobile.png"
+                                alt="TaiwanMobile system diagram"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Data Engineer, TaiwanMobile
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                <b>Working Topic: LLM, Federative Learning, Social Enginnering</b>
+                            </p>
+                            <p class="projects__row-content-desc">
+                                I develop large-scale language models to aid the company's 
+                                creation of an automated phishing email system. This 
+                                helps assess employees' susceptibility to social engineering. 
+                                Additionally, I partner with hospitals to combine patient health data, 
+                                browsing history, and SMS content. Using a federated learning approach, 
+                                we craft personalized product recommendations while ensuring privacy adherence.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Experience 2 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/hpe.jpg"
+                                alt="HPE picture"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Product Engineer Intern, Hewlett Packward Enterprise, Taiwan
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                Throughout this timeframe, I played a pivotal role by creating 
+                                data analysis tools to boost operational efficiency and monitor 
+                                production progress. By furnishing production reports, I aided 
+                                in issue detection and process optimization, cutting operation 
+                                time by 50%. Moreover, I acquired server expertise, offering 
+                                solutions to production hurdles, and managing assembly and 
+                                documentation for the AMD
+                                <a
+                                    class="magic-hover magic-hover__square"
+                                    href="https://buy.hpe.com/tw/zh/compute/rack-servers/proliant-dl300-servers/proliant-dl325-server/hpe-proliant-dl325-gen11/p/1014689141?jumpid=in_smb_dm3_prodgen11"
+                                    target="_blank"
+                                    ><b>DL325 Gen11 model</b></a
+                                >
+                                .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Experience 3 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/jpeg/u.jpg"
+                                alt="Digi system diagram"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Undergraduate Researcher, Advanced Intelligent Image and Vision Technology Research Center
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                My dedicated research yielded significant enhancements in 
+                                finger vein recognition, culminating in an impressive 
+                                accuracy rate of 99.80%. This achievement stemmed from 
+                                addressing the intricate challenges posed by variations 
+                                in image quality. On the practical implementation front, 
+                                I effectively deployed the vein recognition model on Azure, 
+                                adeptly harnessing the power of cloud computing to overcome 
+                                the limitations imposed by IoT devices. Additionally, I 
+                                demonstrated ingenuity through the creation of a vein 
+                                recognition prototype using a Raspberry Pi infrared camera 
+                                setup.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Experience 4 -->
+                    <div class="projects__row">
+                        <div class="projects__row-img-cont">
+                            <img
+                                src="./assets/png/digi.png"
+                                alt="PBC image"
+                                class="projects__row-img"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="projects__row-content">
+                            <h3 class="projects__row-content-title">
+                                Computer Vision Engineer Intern, China Engineering Consultants, Inc, Taipei
+                            </h3>
+                            <p class="projects__row-content-desc">
+                                We developed a user interface that enhanced user experience 
+                                and seamlessly integrated with cloud systems. Additionally, 
+                                we constructed object detection algorithms to achieve efficient 
+                                vehicle motion tracking and traffic violation identification. By 
+                                transitioning the overall reporting process from manual to automated 
+                                recognition, we optimized the vehicle violation capture workflow, reducing 
+                                capture time from 90 seconds to 5 seconds. This facilitates law enforcement 
+                                officers in apprehending violative vehicles.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact sec-pad dynamicBg reveal">
+            <div class="main-container">
+                <h2 class="heading heading-sec heading-sec__mb-med">
+                    <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+                    <span class="heading-sec__sub heading-sec__sub--lt">
+                        Feel free to reach out to me if you have any inquiries!
+                    </span>
+                </h2>
+                <div class="contact__form-container">
+                    <form
+                        action="https://formspree.io/f/xbjbvqqw"
+                        method="POST"
+                        class="contact__form"
+                    >
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="name">Name</label>
+                            <input
+                                required
+                                placeholder="Enter Your Name"
+                                type="text"
+                                class="contact__form-input"
+                                name="name"
+                                id="name"
+                            />
+                        </div>
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="email">Email</label>
+                            <input
+                                required
+                                placeholder="Enter Your Email"
+                                type="text"
+                                class="contact__form-input"
+                                name="email"
+                                id="email"
+                            />
+                        </div>
+                        <div class="contact__form-field">
+                            <label class="contact__form-label" for="message"
+                                >Message</label
+                            >
+                            <textarea
+                                required
+                                cols="30"
+                                rows="10"
+                                class="contact__form-input"
+                                placeholder="Enter Your Message"
+                                name="message"
+                                id="message"
+                            ></textarea>
+                        </div>
+                        <button
+                            type="submit"
+                            class="btn btn--theme contact__btn magic-hover magic-hover__square"
+                        >
+                            Submit
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="main-container">
+                <div class="main-footer__upper">
+                    <div class="main-footer__row main-footer__row-1">
+                        <h2 class="heading heading-sm main-footer__heading-sm">
+                            <span>Social</span>
+                        </h2>
+                        <div class="main-footer__social-cont">
+                            <!--LinkedIn-->
+                            <a
+                                rel="noreferrer"
+                                target="_blank"
+                                href="https://www.linkedin.com/in/oscarweiyi"
+                                class="magic-hover magic-hover__square"
+                            >
+                                <img
+                                    class="main-footer__icon"
+                                    src="./assets/png/linkedin-ico.png"
+                                    alt="linkedin icon"
+                                />
+                            </a>
+                            <!--GitHub-->
+                            <a
+                                rel="noreferrer"
+                                target="_blank"
+                                href="https://github.com/OscarWei61"
+                                class="magic-hover magic-hover__square"
+                            >
+                                <img
+                                    class="main-footer__icon"
+                                    src="./assets/png/github-ico.png"
+                                    alt="github icon"
+                                />
+                            </a>
+                            <!--Medium-->
+                            <a
+                                target="_blank"
+                                rel="noreferrer"
+                                href="https://medium.com/@wei57"
+                                class="magic-hover magic-hover__square"
+                            >
+                                <img
+                                    class="main-footer__icon"
+                                    src="./assets/png/medium-ico.png"
+                                    alt="medium icon"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main-footer__row main-footer__row-2">
+                        <h4 class="heading heading-sm text-lt">Ming-Yi Wei</h4>
+                        <p class="main-footer__short-desc">
+                            © 2023 Ming-Yi Wei. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="module" src="./index.js"></script>
+        <script type="text/javascript" src="./cursor.js"></script>
+        <script type="text/javascript">
+            options = {
+                cursorOuter: 'circle-basic',
+                hoverEffect: 'circle-move',
+                hoverItemMove: false,
+                defaultCursor: false,
+                outerWidth: 50,
+                outerHeight: 50,
+            };
+            magicMouse(options);
+        </script>
+
+    </body>
+</html>
